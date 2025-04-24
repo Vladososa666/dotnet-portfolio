@@ -13,3 +13,9 @@
 /home/vladososa66/dotnet-portfolio/ToDoListApp/obj/Debug/net8.0/ToDoListApp.pdb
 /home/vladososa66/dotnet-portfolio/ToDoListApp/obj/Debug/net8.0/ToDoListApp.genruntimeconfig.cache
 /home/vladososa66/dotnet-portfolio/ToDoListApp/obj/Debug/net8.0/ref/ToDoListApp.dll
+/home/vladososa66/dotnet-portfolio/ToDoListApp/bin/Debug/net8.0/System.IO.Pipelines.dll
+/home/vladososa66/dotnet-portfolio/ToDoListApp/bin/Debug/net8.0/System.Text.Encodings.Web.dll
+/home/vladososa66/dotnet-portfolio/ToDoListApp/bin/Debug/net8.0/System.Text.Json.dll
+/home/vladososa66/dotnet-portfolio/ToDoListApp/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+/home/vladososa66/dotnet-portfolio/ToDoListApp/obj/Debug/net8.0/ToDoListApp.csproj.AssemblyReference.cache
+/home/vladososa66/dotnet-portfolio/ToDoListApp/obj/Debug/net8.0/ToDoListApp.csproj.CopyComplete

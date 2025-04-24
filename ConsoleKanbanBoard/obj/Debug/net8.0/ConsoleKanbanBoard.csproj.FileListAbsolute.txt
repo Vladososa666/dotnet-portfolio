@@ -1,0 +1,15 @@
+/home/vladososa66/dotnet-portfolio/ConsoleKanbanBoard/bin/Debug/net8.0/ConsoleKanbanBoard
+/home/vladososa66/dotnet-portfolio/ConsoleKanbanBoard/bin/Debug/net8.0/ConsoleKanbanBoard.deps.json
+/home/vladososa66/dotnet-portfolio/ConsoleKanbanBoard/bin/Debug/net8.0/ConsoleKanbanBoard.runtimeconfig.json
+/home/vladososa66/dotnet-portfolio/ConsoleKanbanBoard/bin/Debug/net8.0/ConsoleKanbanBoard.dll
+/home/vladososa66/dotnet-portfolio/ConsoleKanbanBoard/bin/Debug/net8.0/ConsoleKanbanBoard.pdb
+/home/vladososa66/dotnet-portfolio/ConsoleKanbanBoard/obj/Debug/net8.0/ConsoleKanbanBoard.GeneratedMSBuildEditorConfig.editorconfig
+/home/vladososa66/dotnet-portfolio/ConsoleKanbanBoard/obj/Debug/net8.0/ConsoleKanbanBoard.AssemblyInfoInputs.cache
+/home/vladososa66/dotnet-portfolio/ConsoleKanbanBoard/obj/Debug/net8.0/ConsoleKanbanBoard.AssemblyInfo.cs
+/home/vladososa66/dotnet-portfolio/ConsoleKanbanBoard/obj/Debug/net8.0/ConsoleKanbanBoard.csproj.CoreCompileInputs.cache
+/home/vladososa66/dotnet-portfolio/ConsoleKanbanBoard/obj/Debug/net8.0/ConsoleKanbanBoard.sourcelink.json
+/home/vladososa66/dotnet-portfolio/ConsoleKanbanBoard/obj/Debug/net8.0/ConsoleKanbanBoard.dll
+/home/vladososa66/dotnet-portfolio/ConsoleKanbanBoard/obj/Debug/net8.0/refint/ConsoleKanbanBoard.dll
+/home/vladososa66/dotnet-portfolio/ConsoleKanbanBoard/obj/Debug/net8.0/ConsoleKanbanBoard.pdb
+/home/vladososa66/dotnet-portfolio/ConsoleKanbanBoard/obj/Debug/net8.0/ConsoleKanbanBoard.genruntimeconfig.cache
+/home/vladososa66/dotnet-portfolio/ConsoleKanbanBoard/obj/Debug/net8.0/ref/ConsoleKanbanBoard.dll

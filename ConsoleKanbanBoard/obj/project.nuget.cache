@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "68PuH4q/eEQ5aLj7gsCilFPVDS27N0Puc/nqwwHKoyaQ7tKw47W07eaEsE8eZdcClhYOEWblohIUXFwCXMvOhg==",
+  "dgSpecHash": "XOO4Mu+R9uF5qWJGzQ+/ldKhy1GrxGGIMhgW0z7CsOccW0N8zt/bG4ng6CkTh81CKBIG/HUJILZ1X2xOPxtgVQ==",
   "success": true,
-  "projectFilePath": "/home/vladososa66/ConsoleKanbanBoard/ConsoleKanbanBoard.csproj",
+  "projectFilePath": "/home/vladososa66/dotnet-portfolio/ConsoleKanbanBoard/ConsoleKanbanBoard.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

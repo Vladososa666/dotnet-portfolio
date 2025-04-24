@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DmRqxvSvUsKjyn5FmeEfIweK4qHOI5Q+vVGZysbFocJD5LO9HYBh9lh+zQFfbYq3XIJR3SBCYwUaipKzeR88tg==",
+  "dgSpecHash": "+b9zOIWZZPOaZ3bSRUM35M54f7duP/qFL5FCEkUrmOa+U5/u5eIDB+t0vOr/6e8nAmqoONu64hcIqFEK6jtW/Q==",
   "success": true,
   "projectFilePath": "/home/vladososa66/dotnet-portfolio/ToDoListApp/ToDoListApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/vladososa66/.nuget/packages/system.io.pipelines/9.0.4/system.io.pipelines.9.0.4.nupkg.sha512",
+    "/home/vladososa66/.nuget/packages/system.text.encodings.web/9.0.4/system.text.encodings.web.9.0.4.nupkg.sha512",
+    "/home/vladososa66/.nuget/packages/system.text.json/9.0.4/system.text.json.9.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

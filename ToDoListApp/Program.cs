@@ -1,111 +1,97 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
 
-namespace ToDoListApp
+class Program
 {
-    class Program
+    static string filePath = "tasks.json";
+    static List<TaskItem> tasks = new();
+
+    static void Main()
     {
-        static void Main(string[] args)
+        LoadTasks();
+
+        while (true)
         {
-            List<string> tasks = new List<string>();
-            bool running = true;
+            Console.Clear();
+            ShowTasks();
+            Console.WriteLine("\n1. Добави задача");
+            Console.WriteLine("2. Маркирай задача като завършена");
+            Console.WriteLine("3. Изтрий задача");
+            Console.WriteLine("4. Запази и изход");
 
-            while (running)
+            Console.Write("\nИзбери опция: ");
+            string input = Console.ReadLine();
+
+            switch (input)
             {
-                Console.Clear();
-                Console.WriteLine("To-Do List");
-                Console.WriteLine("1. Add Task");
-                Console.WriteLine("2. Remove Task");
-                Console.WriteLine("3. View Tasks");
-                Console.WriteLine("4. Mark Task as Completed");
-                Console.WriteLine("5. Exit");
-                Console.Write("Select an option: ");
-                string choice = Console.ReadLine();
-
-                switch (choice)
-                {
-                    case "1":
-                        AddTask(tasks);
-                        break;
-                    case "2":
-                        RemoveTask(tasks);
-                        break;
-                    case "3":
-                        ViewTasks(tasks);
-                        break;
-                    case "4":
-                        MarkTaskAsCompleted(tasks);
-                        break;
-                    case "5":
-                        running = false;
-                        break;
-                    default:
-                        Console.WriteLine("Invalid option. Please try again.");
-                        break;
-                }
+                case "1": AddTask(); break;
+                case "2": CompleteTask(); break;
+                case "3": DeleteTask(); break;
+                case "4": SaveTasks(); return;
+                default: Console.WriteLine("Невалиден избор!"); break;
             }
+
+            Console.WriteLine("\nНатисни Enter за да продължиш...");
+            Console.ReadLine();
         }
+    }
 
-        static void AddTask(List<string> tasks)
+    static void ShowTasks()
+    {
+        Console.WriteLine("📋 Задачи:");
+        for (int i = 0; i < tasks.Count; i++)
         {
-            Console.Write("Enter the task: ");
-            string task = Console.ReadLine();
-            tasks.Add(task);
-            Console.WriteLine("Task added successfully!");
-            Console.ReadKey();
+            var status = tasks[i].IsCompleted ? "[x]" : "[ ]";
+            Console.WriteLine($"{i + 1}. {status} {tasks[i].Description}");
         }
+    }
 
-        static void RemoveTask(List<string> tasks)
+    static void AddTask()
+    {
+        Console.Write("Въведи описание: ");
+        string description = Console.ReadLine();
+        tasks.Add(new TaskItem { Description = description, IsCompleted = false });
+    }
+
+    static void CompleteTask()
+    {
+        Console.Write("Номер на задача за завършване: ");
+        if (int.TryParse(Console.ReadLine(), out int index) && index >= 1 && index <= tasks.Count)
         {
-            Console.Write("Enter the task number to remove: ");
-            int taskNumber = Convert.ToInt32(Console.ReadLine()) - 1;
-
-            if (taskNumber >= 0 && taskNumber < tasks.Count)
-            {
-                tasks.RemoveAt(taskNumber);
-                Console.WriteLine("Task removed successfully!");
-            }
-            else
-            {
-                Console.WriteLine("Invalid task number.");
-            }
-
-            Console.ReadKey();
+            tasks[index - 1].IsCompleted = true;
         }
+    }
 
-        static void ViewTasks(List<string> tasks)
+    static void DeleteTask()
+    {
+        Console.Write("Номер на задача за изтриване: ");
+        if (int.TryParse(Console.ReadLine(), out int index) && index >= 1 && index <= tasks.Count)
         {
-            Console.WriteLine("Your Tasks:");
-            if (tasks.Count == 0)
-            {
-                Console.WriteLine("No tasks to show.");
-            }
-            else
-            {
-                for (int i = 0; i < tasks.Count; i++)
-                {
-                    Console.WriteLine($"{i + 1}. {tasks[i]}");
-                }
-            }
-            Console.ReadKey();
+            tasks.RemoveAt(index - 1);
         }
+    }
 
-        static void MarkTaskAsCompleted(List<string> tasks)
+    static void SaveTasks()
+    {
+        string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
+        File.WriteAllText(filePath, json);
+    }
+
+    static void LoadTasks()
+    {
+        if (File.Exists(filePath))
         {
-            Console.Write("Enter the task number to mark as completed: ");
-            int taskNumber = Convert.ToInt32(Console.ReadLine()) - 1;
-
-            if (taskNumber >= 0 && taskNumber < tasks.Count)
-            {
-                Console.WriteLine($"Task '{tasks[taskNumber]}' is marked as completed.");
-                tasks[taskNumber] = "[Completed] " + tasks[taskNumber];
-            }
-            else
-            {
-                Console.WriteLine("Invalid task number.");
-            }
-
-            Console.ReadKey();
+            string json = File.ReadAllText(filePath);
+            tasks = JsonSerializer.Deserialize<List<TaskItem>>(json) ?? new();
         }
     }
 }
+
+class TaskItem
+{
+    public string Description { get; set; }
+    public bool IsCompleted { get; set; }
+}
+

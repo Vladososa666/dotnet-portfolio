@@ -1,0 +1,15 @@
+/home/vladososa66/dotnet-portfolio/TaskManager/bin/Debug/net8.0/TaskManager
+/home/vladososa66/dotnet-portfolio/TaskManager/bin/Debug/net8.0/TaskManager.deps.json
+/home/vladososa66/dotnet-portfolio/TaskManager/bin/Debug/net8.0/TaskManager.runtimeconfig.json
+/home/vladososa66/dotnet-portfolio/TaskManager/bin/Debug/net8.0/TaskManager.dll
+/home/vladososa66/dotnet-portfolio/TaskManager/bin/Debug/net8.0/TaskManager.pdb
+/home/vladososa66/dotnet-portfolio/TaskManager/obj/Debug/net8.0/TaskManager.GeneratedMSBuildEditorConfig.editorconfig
+/home/vladososa66/dotnet-portfolio/TaskManager/obj/Debug/net8.0/TaskManager.AssemblyInfoInputs.cache
+/home/vladososa66/dotnet-portfolio/TaskManager/obj/Debug/net8.0/TaskManager.AssemblyInfo.cs
+/home/vladososa66/dotnet-portfolio/TaskManager/obj/Debug/net8.0/TaskManager.csproj.CoreCompileInputs.cache
+/home/vladososa66/dotnet-portfolio/TaskManager/obj/Debug/net8.0/TaskManager.sourcelink.json
+/home/vladososa66/dotnet-portfolio/TaskManager/obj/Debug/net8.0/TaskManager.dll
+/home/vladososa66/dotnet-portfolio/TaskManager/obj/Debug/net8.0/refint/TaskManager.dll
+/home/vladososa66/dotnet-portfolio/TaskManager/obj/Debug/net8.0/TaskManager.pdb
+/home/vladososa66/dotnet-portfolio/TaskManager/obj/Debug/net8.0/TaskManager.genruntimeconfig.cache
+/home/vladososa66/dotnet-portfolio/TaskManager/obj/Debug/net8.0/ref/TaskManager.dll
