@@ -1,0 +1,15 @@
+/home/vladososa66/dotnet-portfolio/ToDoListApp/bin/Debug/net8.0/ToDoListApp
+/home/vladososa66/dotnet-portfolio/ToDoListApp/bin/Debug/net8.0/ToDoListApp.deps.json
+/home/vladososa66/dotnet-portfolio/ToDoListApp/bin/Debug/net8.0/ToDoListApp.runtimeconfig.json
+/home/vladososa66/dotnet-portfolio/ToDoListApp/bin/Debug/net8.0/ToDoListApp.dll
+/home/vladososa66/dotnet-portfolio/ToDoListApp/bin/Debug/net8.0/ToDoListApp.pdb
+/home/vladososa66/dotnet-portfolio/ToDoListApp/obj/Debug/net8.0/ToDoListApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/vladososa66/dotnet-portfolio/ToDoListApp/obj/Debug/net8.0/ToDoListApp.AssemblyInfoInputs.cache
+/home/vladososa66/dotnet-portfolio/ToDoListApp/obj/Debug/net8.0/ToDoListApp.AssemblyInfo.cs
+/home/vladososa66/dotnet-portfolio/ToDoListApp/obj/Debug/net8.0/ToDoListApp.csproj.CoreCompileInputs.cache
+/home/vladososa66/dotnet-portfolio/ToDoListApp/obj/Debug/net8.0/ToDoListApp.sourcelink.json
+/home/vladososa66/dotnet-portfolio/ToDoListApp/obj/Debug/net8.0/ToDoListApp.dll
+/home/vladososa66/dotnet-portfolio/ToDoListApp/obj/Debug/net8.0/refint/ToDoListApp.dll
+/home/vladososa66/dotnet-portfolio/ToDoListApp/obj/Debug/net8.0/ToDoListApp.pdb
+/home/vladososa66/dotnet-portfolio/ToDoListApp/obj/Debug/net8.0/ToDoListApp.genruntimeconfig.cache
+/home/vladososa66/dotnet-portfolio/ToDoListApp/obj/Debug/net8.0/ref/ToDoListApp.dll
